@@ -34,11 +34,12 @@ button{
     text-transform: capitalize;
 }
 #content{
-            height: 300px;
-            width: 900px;
-            margin: 25px;
-            padding-left: 30px;
-            margin-top: 200px;
+               display: flex;
+    height: 49vh;
+    flex-direction: column;
+    width: 880px;
+    margin-top: 5px;
+            
 }
 
 #heading{
@@ -65,4 +66,10 @@ p{
         height: 200px;
     background-color: tan;
     margin-top: -97px;
+}
+#img{ display: flex;
+    flex-direction: row;
+    
+    margin: -388px 900px;
+    
 }
