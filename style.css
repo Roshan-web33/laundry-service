@@ -61,6 +61,13 @@ p{
     background-color: skyblue;
     padding: 25px;
     border-radius: 19px;
+    border: 0px;
+    height: 100px;
+    width: 400px;
+    transition-property: all;
+    transition-duration:1s;
+    
+    
 }
 #fotter{
         height: 200px;
@@ -71,5 +78,10 @@ p{
     flex-direction: row;
     
     margin: -388px 900px;
+    
+}
+#last:hover{
+    transform: rotate(10deg) scale(1.25);
+    
     
 }
